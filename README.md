@@ -5,10 +5,11 @@ Finite difference pricing tool for barrier and non-barrier options with nonlinea
 Significant running notes: 
 
 1. The code was developed using RStudio API 1.0.143 and R version 3.3.3.
-1. Devtools package is required to run the code (parts of which were written in C++). Binaries are avaialable at CRAN's repository https://cran.r-project.org/web/packages/devtools/index.html - note that it that the installation is manual and can't be perfermed solely within RStudio API
-2. The following R libraries shall be automatically installed: Shiny, Rcpp, microbenchmark, ggplot2, reshape2 with all their possible dependencies.
-2. Application is memory heavy. One should prepare about 1GB of RAM for full interaction.
-3. Computational complexity is also of significant order. Some patience will be expected from user.
+2. Devtools package is required to run the code (parts of which were written in C++). Binaries are avaialable at CRAN's repository https://cran.r-project.org/web/packages/devtools/index.html - note that it that the installation is manual and can't be perfermed solely within RStudio API
+3. The following R libraries shall be automatically installed: Shiny, Rcpp, microbenchmark, ggplot2, reshape2 with all their possible dependencies.
+4. Application is memory heavy. One should prepare about 1GB of RAM for full interaction.
+5. Computational complexity is also of significant order. Some patience will be expected from user.
+6. Variables names are consistent with Paul Wilmott's 'On quantitatative finance'.
 
 -------------------------------
 How to run:
@@ -20,7 +21,7 @@ How to run:
 -------------------------------
 Brief description of the subject:
 
-All the theoretical aspects and outcomes are discussed in depth in the attached report (IF1_2_git.pdf). As for the time being only Polish language version is available
+All the theoretical aspects and outcomes are discussed in depth within the attached report (IF1_2_git.pdf). As for the time being only Polish language version is available. 
 
 (to be completed)
 
