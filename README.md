@@ -20,6 +20,8 @@ How to run:
 -------------------------------
 Brief description of the subject:
 
+All the theoretical aspects and outcomes are discussed in depth in the attached report (IF1_2_git.pdf). As for the time being only Polish language version is available
+
 (to be completed)
 
 -------------------------------
