@@ -470,7 +470,7 @@ double cpp_var(NumericVector x, bool bias = false)
    for(int i = 0; i < n; i++){
       sum += pow(x[i] - mean, 2.0); 
    }
-   return sum/(n-bias);
+   return sum/(n - !bias);
 }
 //[[Rcpp::export]]
 double cpp_sd(NumericVector x, bool bias = false)
