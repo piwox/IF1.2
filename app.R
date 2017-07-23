@@ -4,12 +4,12 @@ options(error = traceback) #crucial for tracing errors
 
 #------------Libraries-------------------
 
-require('shiny')
-require('ggplot2')
-require('reshape2')
-require('plotly')
-require('Rcpp')
-require('microbenchmark')
+library('shiny')
+library('ggplot2')
+library('reshape2')
+library('plotly')
+library('Rcpp')
+library('microbenchmark')
 
 #------------Set global variables--------
 
